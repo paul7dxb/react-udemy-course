@@ -1,9 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+/react-udemy-course/node_modules
+/react-udemy-course/.pnp
+/react-udemy-course/.pnp.js
+/react-styling-app/node_modules
+/react-styling-app/.pnp
+/react-styling-app/.pnp.js
 
 # testing
 /coverage
