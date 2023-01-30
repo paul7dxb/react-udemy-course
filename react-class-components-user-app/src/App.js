@@ -1,12 +1,18 @@
+import { useState } from 'react';
 import UserFinder from './components/UserFinder';
 import Users from './components/Users';
 import UsersContext from './store/users-context';
 
-const DUMMY_USERS = [
-  { id: "u1", name: "Max" },
-  { id: "u2", name: "Manuel" },
-  { id: "u3", name: "Julie" },
-];
+const [movies, setMovies] = useState([]);
+
+function fetchMoveisHandler(){
+  fetch('https://swapi.dev/api/films').then((response) => {
+    return response.json();
+  }).then((data) => {
+    const transformedMovies = data.results.map((movieData) => {return {id: movieData.episode_id, title: movieData.title, openingText: movieData.opening_crawl, releaseData: movieData.release_date}})
+    setMovies(transformedMovies)
+  })
+}
 
 function App() {
 
