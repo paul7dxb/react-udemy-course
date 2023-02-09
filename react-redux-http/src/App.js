@@ -16,6 +16,7 @@ function App() {
 
   const notification = useSelector((state) => state.ui.notification);
 
+  //Used to get initial cart data from firebase
   useEffect(() => {
     dispatch(fetchCartData());
   }, []);
@@ -26,6 +27,7 @@ function App() {
       return;
     }
 
+    //When local change made to cart
     if (cart.changed) {
       dispatch(sendCartData(cart));
     }
