@@ -10,9 +10,10 @@ Notes I made for React along the way can also be seen in my [web dev notes repo]
 - States & Components
 - Hooks including custom hooks
 - Forms & handling user input
+- Context
 - Redux
 - Using API calls to make GET/PUT requests to Firebase
-- React Router for SPA
+- React Router
 
 ## Example Applications:
 
