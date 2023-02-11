@@ -23,7 +23,7 @@ Notes I made for React along the way can also be seen in my [web dev notes repo]
 
 ## Security
 
-- Many of the packages / libraries used in these example applications are / will become outdated as time goes by. This can lead to vulnerable applications if deployed.
+- Many of the packages / libraries used in these example applications are or will become outdated as time goes by. This can lead to vulnerable applications if deployed.
 - It is recommended to update to use the latest versions to minimise the security risk.
 - Outdated components were number 6 on the [OWASP Top 10 Web Application Security Risks](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
 
