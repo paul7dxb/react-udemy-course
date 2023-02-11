@@ -20,3 +20,10 @@ Notes I made for React along the way can also be seen in my [web dev notes repo]
 - Shopping cart frontend using state
 - Sending shopping order to backend
 - Get and display items from a backend DB (movie info)
+
+## Security
+
+- Many of the packages / libraries used in these example applications are / will become outdated as time goes by. This can lead to vulnerable applications if deployed.
+- It is recommended to update to use the latest versions to minimise the security risk.
+- Outdated components were number 6 on the [OWASP Top 10 Web Application Security Risks](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
+
