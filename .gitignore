@@ -11,6 +11,7 @@ package-lock.json
 # testing
 react-styling-app/coverage
 react-expenses-app/coverage
+comparisonFile
 
 # production
 react-styling-app/build
