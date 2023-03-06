@@ -21,9 +21,14 @@ Deployment steps:
 
 ## How to Use
 
+- Requires username and password to be used in url calls to MongoDB. Or use environment variables
 - Open this folder in a terminal and run
 
 ```bash
 npm install
 npm start
 ```
+
+## Possible Improvements
+- Optimise images with NextImage
+- Authentication, sign up, login, logout

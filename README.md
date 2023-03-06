@@ -11,11 +11,14 @@ Notes I made for React along the way can also be seen in my [web dev notes repo]
 - Hooks including custom hooks
 - Forms & handling user input
 - Redux
-- Using API calls to make GET/PUT requests to Firebase
+- Using API calls to make GET/PUT requests to Firebase / MongoDB
 - React Router for SPA
+- NextJS Basics
 
 ## Example Applications:
 
 - Shopping cart frontend using state
 - Sending shopping order to backend
 - Get and display items from a backend DB (movie info)
+- Meetup app where user can create and view meetups from a DB using API calls
+
