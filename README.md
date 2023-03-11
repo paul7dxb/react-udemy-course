@@ -12,11 +12,14 @@ Notes I made for React along the way can also be seen in my [web dev notes repo]
 - Forms & handling user input
 - Context
 - Redux
+- Local storage options without Redux
 - Using API calls to make GET/PUT requests to Firebase / MongoDB
 - React Router for SPA
 - NextJS Basics
 - Authentication
 - Animations with ReactTransitionGroup
+- Testing your code
+- Using TypeScript with React
 
 ## Example Applications:
 
